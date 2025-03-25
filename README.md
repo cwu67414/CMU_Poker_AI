@@ -1,17 +1,25 @@
 Poker AI Bot-7
 
 ├── bot_strategy.py     # AI decision-making logic (betting, raising, folding)
+
 ├── game_state.py      # Handles parsing game data and tracking game state
+
 ├── hand_evaluator.py  # Evaluates hand strength based on modified rules
+
 ├── time_manager.py    # Manages time constraints to prevent forfeiting
+
 ├── main.py            # Runs the bot, integrates all modules, and outputs moves
+
 ├── README.md          # Project documentation
 
 Installation
 1. git clone https://github.com/your-repo/poker-ai-bot.git
+   
    cd poker-ai-bot
+   
 2. pip install -r requirements.txt
-3. python main.py
+
+5. python main.py
 
 How It Works
 
